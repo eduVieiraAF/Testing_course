@@ -10,6 +10,7 @@ public interface GetCartItemsHttpEndpoint {
 
     interface Callback {
         void onGetCartItemsSucceeded(List<CartItemSchema> cartItems);
+
         void onGetCartItemFailed(FailReason failReason);
     }
 
